@@ -1,0 +1,105 @@
+ body,html {
+  margin-top: 50px;
+  font-family: sans-serif;
+  background-color: rgb(205, 205, 206);
+  /* text-align: center; */
+}
+
+
+
+/* footer */
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* margin-top: 50px; */
+}
+
+
+
+
+/* card all recipes */
+.card-ind{
+  border-radius: 1em;
+  text-align: center;
+  padding: 1em;
+}
+
+
+.card:hover{
+  background-color: rgb(228, 167, 228);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-ind img{
+  border-radius: 2em;
+  width: 80%;
+  /* height: 200px; */
+  margin: auto;
+  /* padding: auto; */
+}
+
+
+
+
+
+/* card photogallery */
+
+.scrool{
+  height: 500px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 3px solid;
+  border-radius: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 0.3em;
+}
+
+.photo:hover{
+  /* width: 102%; */
+  background-color: rgb(236, 242, 209);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 0.4em;
+}
+
+.photo img{
+  border-radius: 50%;
+  width: 100%;
+  /* height: 100%; */
+  margin: auto;
+  /* padding: auto; */
+}
+
+.photo{
+  border-radius: 50%;
+}
+
+.btn-ph{
+  border-radius: 50%;
+}
+
+.img-gall img{
+  height: 250px;
+  border-radius: 50%;
+}
+  
+
+
+/* registration */
+
+.reg{
+  text-align: center;
+  border: 3px solid;
+  background-color: rgb(146, 144, 144);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  }
+.field{
+  width: 80%;
+  margin: 10%;
+ }
